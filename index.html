@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zetta Shop</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#000,#061a3a,#0b1220);
+    color:white;
+}
+
+header{
+    padding:20px;
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    color:#4da6ff;
+    border-bottom:2px solid #0066ff;
+}
+
+.shop{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    width:240px;
+    background:#0f172a;
+    border:2px solid #0066ff;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.price{
+    font-size:28px;
+    color:#4da6ff;
+    margin:15px 0;
+    font-weight:bold;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#0066ff;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3399ff;
+}
+
+.back{
+    text-align:center;
+    margin:30px;
+    color:#66b3ff;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+Zetta Robux Shop
+</header>
+
+<div class="shop">
+
+<div class="card">
+<h2>400 Robux</h2>
+<div class="price">5,99 €</div>
+<button onclick="alert('Demo Bestellung')">Kaufen</button>
+</div>
+
+<div class="card">
+<h2>800 Robux</h2>
+<div class="price">11,99 €</div>
+<button onclick="alert('Demo Bestellung')">Kaufen</button>
+</div>
+
+<div class="card">
+<h2>1700 Robux</h2>
+<div class="price">23,99 €</div>
+<button onclick="alert('Demo Bestellung')">Kaufen</button>
+</div>
+
+<div class="card">
+<h2>4500 Robux</h2>
+<div class="price">59,99 €</div>
+<button onclick="alert('Demo Bestellung')">Kaufen</button>
+</div>
+
+</div>
+
+<div class="back" onclick="window.location.href='index.html'">
+← Zurück
+</div>
+
+</body>
+</html>
